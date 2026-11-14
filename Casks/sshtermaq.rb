@@ -1,9 +1,9 @@
 cask "sshtermaq" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.0"
-  sha256 arm:   "e4996c7002bd0ae47310ab7cf1ec8643062bfd3827221a713ae8e7ffb401a93a",
-         intel: "782dc1ff82c23eb987f4529e74f29ec963b61e2ffd9b70aea4083cf0b5dfbe05"
+  version "1.1.0"
+  sha256 arm:   "0581d2af97af35ce5c08cb2f85fcee2eaf7dd4367938240b5feafa790108473a",
+         intel: "00fa5ef15804d47d1e6d85598779c25cd297273cdeb1febebae10df555d2ddad"
 
   url "https://github.com/f1resh/sshtermaq/releases/download/#{version}/SSHTermaq-#{version}-mac-#{arch}.dmg"
   name "SSHTermaq"
